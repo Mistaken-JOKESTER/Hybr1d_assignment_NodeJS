@@ -1,0 +1,28 @@
+{
+  "name": "hybr1d_assignment",
+  "version": "1.0.0",
+  "description": "Back-end assignment for hybr1d",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./src/index.js -e .js",
+    "start": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.29",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
