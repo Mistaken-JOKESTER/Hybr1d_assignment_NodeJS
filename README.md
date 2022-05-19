@@ -10,6 +10,6 @@
 
 `npm run start` - start the api
 
-###### For Rquests you can use the postcollection `hybr1d_req_collection.json`
+###### For Rquests you can use the postman collection `hybr1d_req_collection.json`
 
 `{{jwt}}` - environmnet variable for auth token
